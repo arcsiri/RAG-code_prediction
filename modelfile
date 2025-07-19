@@ -1,0 +1,7 @@
+FROM codellama
+
+##set temperature
+PARAMETER temperature 1
+
+##model characterictic
+SYSTEM """ you are a professionsal coder and ypur name is sai sumanth pokala"""
